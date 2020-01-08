@@ -1,0 +1,98 @@
+# Steps to solve puzzle
+take tablet
+use tablet
+
+doorway
+north
+north
+bridge
+continue
+down
+east
+take empty lantern
+west
+west
+passage
+ladder
+
+west
+south
+north
+take can
+use can
+west
+
+ladder
+use lantern
+darkness
+continue
+west
+west
+west
+west
+north
+take red coin         # 2
+
+north                 # _ + _ * _^2 + _^3 - _ = 399
+east
+take concave coin     # 7
+down
+take corroded coin    # 3
+up
+west
+
+west
+take blue coin        # 9
+up
+take shiny coin       # 5
+down
+east
+
+use blue coin         # 9 + 2 * 5^2 + 7^3 - 3 = 399
+use red coin
+use shiny coin
+use concave coin
+use corroded coin
+
+north
+take teleporter
+use teleporter
+
+take business card
+take strange book
+
+hacktp # does not deliver right value but allows proceeding
+use teleporter
+
+west
+north
+north
+north
+north
+north
+north
+north
+east
+take journal
+west
+north
+north
+
+take orb # 22
+north    # +
+east     # 4
+east     # -
+north    # 11
+west     # *
+south    # 4
+east     # -
+east     # 18
+west     # -
+north    # 11
+north    # -
+east     # 1
+vault
+take mirror
+use mirror
+
+quit
